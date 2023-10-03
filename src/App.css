@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,200&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+nav {
+    z-index: 10001 !important;
+}
+
+.blank {
+    background-image: url('./assets/blank.png');
+}
+
+.gradientBg {
+    background: linear-gradient(91deg, rgba(255, 210, 0, 0.65) 0%, rgba(114, 149, 239, 0.65) 100%); backdrop-filter: blur(89px)
+}
+.btnPrimary {
+    @apply py-3 px-5 bg-yellow-300 font-semibold text-white rounded hover:bg-primary transition-all duration-300
+}
+
+.color{
+    background:#7295EF;
+}
+
+.vl {
+    border-left: 5px solid #536BA7;
+    padding: 10px;
+}
+
+.list {
+    display: flex;
+    width: 660px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    margin-left: 27%;
+}
+
+.study {
+    justify-content: space-between;
+    align-items: center;
+
+}
